@@ -48,7 +48,7 @@ Clone the project from GitHub to your local machine:
 
 Change to the project folder:
 
-`cd Email-Subscribe-Card`
+`cd Tailwinds-Mini-Projects/Email-Subscribe-Card/`
 
 ### Install Dependencies
 
