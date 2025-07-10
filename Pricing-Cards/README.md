@@ -36,25 +36,25 @@ A modern web browser (e.g., Chrome, Firefox, Edge).
 
 Follow these steps to set up and run the project locally:
 
-Clone the Repository
+### Clone the Repository
 
 Clone the project from GitHub to your local machine:
 
 `git clone <repository-url>`
 
-Navigate to the Project Directory
+### Navigate to the Project Directory
 
 Change to the project folder:
 
 `cd Tailwinds-Mini-Projects/Pricing-Cards/`
 
-## Install Dependencies
+### Install Dependencies
 
 Install the required dependencies (e.g., Tailwind CSS) using npm:
 
 `npm i`
 
-Build the Project
+### Build the Project
 
 Run the watch script to compile Tailwind CSS and watch for changes:
 
@@ -62,7 +62,7 @@ Run the watch script to compile Tailwind CSS and watch for changes:
 
 This generates the `css/style.css` file from your Tailwind configuration.
 
-## Run the Project
+### Run the Project
 
 Open the `index.html` file in a web browser. You can do this by:
 
