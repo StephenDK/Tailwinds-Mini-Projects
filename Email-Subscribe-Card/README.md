@@ -1,8 +1,8 @@
-Email Subscribe Card
+#Email Subscribe Card
 
 This project is a responsive email subscription card built with HTML and Tailwind CSS. It features a simple interface with an image, a heading, a description, an email input field, and a subscribe button. The layout adapts to mobile and desktop screens using Tailwind's responsive design utilities.
 
-Project Structure
+##Project Structure
 
 index.html: The main HTML file containing the structure of the email subscription card.
 
@@ -12,7 +12,7 @@ images/image.jpg: A placeholder image displayed alongside the subscription form.
 
 screenshots/: Folder containing screenshots of the mobile and desktop views (to be added).
 
-Features
+##Features
 
 Responsive Design: The card adjusts its layout for mobile and desktop views using Tailwind CSS flexbox utilities.
 
@@ -20,55 +20,61 @@ Interactive Elements: The image scales on hover, and the subscribe button change
 
 Accessible Styling: Uses semantic HTML and clear text for accessibility.
 
-Screenshots
+##Screenshots
 
 Below are the mobile and desktop views of the email subscription card:
 
-Prerequisites
+![Email Subscription Card Mobile Image](./images/email-subscribe-mobile.png)
+
+![Email Subscription Card Desktop Image](./images/email-subscribe-desktop.png)
+
+##Prerequisites
 
 Node.js (v16 or higher) and npm installed on your machine.
 
 A modern web browser (e.g., Chrome, Firefox, Edge).
 
-Installation and Setup
+##Installation and Setup
 
 Follow these steps to set up and run the project locally:
 
-Clone the Repository
+###Clone the Repository
 Clone the project from GitHub to your local machine:
 
-git clone <repository-url>
+`git clone <repository-url>`
 
-Navigate to the Project Directory
+###Navigate to the Project Directory
 Change to the project folder:
 
-cd Email-Subscribe-Card
+`cd Email-Subscribe-Card`
 
-Install Dependencies
+###Install Dependencies
 Install the required dependencies (e.g., Tailwind CSS) using npm:
 
-npm i
+`npm i`
 
-Build the Project
+###Build the Project
 Run the watch script to compile Tailwind CSS and watch for changes:
 
-npm run watch
+`npm run watch`
 
 This generates the css/style.css file from your Tailwind configuration.
 
-Run the Project
+###Run the Project
 Open the index.html file in a web browser. You can do this by:
 
 Double-clicking index.html in your file explorer, or
 
 Using a local development server for a better experience:
 
+```
 npm install -g live-server
 live-server
+```
 
 This will open the project in your default browser at http://localhost:8080.
 
-Usage
+##Usage
 
 Open the project in a browser to view the email subscription card.
 
@@ -78,11 +84,11 @@ On mobile devices, the layout stacks vertically; on desktop, the image and form 
 
 Hover over the image for a scaling effect, or hover over the subscribe button for a color transition.
 
-Adding Screenshots to the README
+##Adding Screenshots to the README
 
 To include screenshots of the mobile and desktop views in this README:
 
-Capture Screenshots:
+###Capture Screenshots:
 
 Mobile View: Open index.html in a browser, use the browser’s developer tools (e.g., Chrome DevTools) to set the viewport to a mobile size (e.g., 375x667 for iPhone). Take a screenshot and save it as screenshots/mobile-view.png.
 
@@ -96,7 +102,7 @@ The README already includes Markdown image links: ![Mobile View](./screenshots/m
 
 These links assume the images are in the screenshots/ folder relative to the README. If you use different file names or paths, update the Markdown accordingly.
 
-Commit and Push:
+###Commit and Push:
 
 Add the screenshots to your repository:
 
@@ -106,7 +112,7 @@ git push origin main
 
 GitHub will render the images in the README when viewed in the repository.
 
-Notes
+##Notes
 
 Image Placeholder: Replace images/image.jpg with an actual image file in the images/ directory, or update the src attribute in index.html to point to a valid image URL.
 
@@ -114,7 +120,7 @@ Customization: Modify the Tailwind classes in index.html or update css/style.css
 
 Form Functionality: The current code includes a static form. To make the subscribe button functional, you’ll need to add JavaScript and a backend service (e.g., for handling email subscriptions).
 
-Troubleshooting
+##Troubleshooting
 
 Styles Not Applied: Ensure npm run watch is running to generate css/style.css. Verify that css/style.css is correctly linked in index.html.
 
