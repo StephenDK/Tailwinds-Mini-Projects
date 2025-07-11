@@ -89,7 +89,7 @@ Hover over the purchase buttons for a color transition effect.
 
 ## Notes
 
-Image Placeholder: If images are used (e.g., for card backgrounds or icons), place them in the `images/` directory and update index.html to reference them.
+Image Placeholder: If images are used (e.g., for card backgrounds or icons), place them in the `images/` directory and update `index.html` to reference them.
 
 Customization: Modify the Tailwind classes in index.html or update `css/style.css` to adjust styling (e.g., colors, fonts).
 
